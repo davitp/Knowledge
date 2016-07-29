@@ -6,9 +6,11 @@ TEMPLATE = lib
 
 DEFINES += BASEKNOWLEDGE_LIBRARY
 
-SOURCES += BaseKnowledge.cpp
+SOURCES += \
+    InfoOperation/InfoOperation.cpp
 
-HEADERS += BaseKnowledge.hpp
+HEADERS += \
+    InfoOperation/InfoOperation.h
 
 unix {
     target.path = /usr/lib
