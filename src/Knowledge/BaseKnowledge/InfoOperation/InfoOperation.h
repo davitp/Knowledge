@@ -3,6 +3,10 @@
 
 #include <string>
 
+#include <Shortcuts/StdShortcuts.h>
+
+namespace know {
+
 class InfoOperation
 {
 public:
@@ -31,4 +35,5 @@ private:
     std::string code;
 };
 
+}
 #endif // INFOOPERATION_H

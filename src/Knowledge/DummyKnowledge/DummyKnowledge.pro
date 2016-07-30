@@ -21,4 +21,6 @@ win32:     LIBS += -L$$OUT_PWD/../BaseKnowledge/ -lBaseKnowledge
 else:unix: LIBS += -L$$OUT_PWD/../BaseKnowledge/ -lBaseKnowledge
 
 INCLUDEPATH += $$PWD/../
+INCLUDEPATH += $$PWD/../BaseKnowledge/
+
 DEPENDPATH += $$PWD/../BaseKnowledge

@@ -1,10 +1,10 @@
-#include "InfoOperation.h"
+#include <InfoOperation/InfoOperation.h>
 
 /**
  * @brief InfoOperation::InfoOperation
  * @param code
  */
-InfoOperation::InfoOperation(const std::string& code)
+know::InfoOperation::InfoOperation(const std::string& code)
 {
     this->setCode(code);
 }
@@ -13,7 +13,7 @@ InfoOperation::InfoOperation(const std::string& code)
  * @brief InfoOperation::getCode
  * @return
  */
-const std::string& InfoOperation::getCode() const
+const std::string& know::InfoOperation::getCode() const
 {
     return this->code;
 }
@@ -22,7 +22,7 @@ const std::string& InfoOperation::getCode() const
  * @brief InfoOperation::setCode
  * @param code
  */
-void InfoOperation::setCode(const std::string& code)
+void know::InfoOperation::setCode(const std::string& code)
 {
     this->code = code;
 }

@@ -3,6 +3,9 @@
 
 #include <BaseKnowledge/InfoOperation/InfoOperation.h>
 
+namespace know
+{
+
 class DummyInfoOperation : public InfoOperation
 {
 public:
@@ -13,4 +16,5 @@ public:
     DummyInfoOperation(const std::string& code);
 };
 
+}
 #endif // DUMMYINFOOPERATION_H

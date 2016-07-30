@@ -7,10 +7,16 @@ TEMPLATE = lib
 DEFINES += BASEKNOWLEDGE_LIBRARY
 
 SOURCES += \
-    InfoOperation/InfoOperation.cpp
+    InfoOperation/InfoOperation.cpp \
+    Value/ValueTree.cpp \
+    Value/ArgTree.cpp
 
 HEADERS += \
-    InfoOperation/InfoOperation.h
+    InfoOperation/InfoOperation.h \
+    Shortcuts/StdShortcuts.h \
+    Value/ValueTree.h \
+    Value/ArgTree.h \
+    Shortcuts/Constants.h
 
 unix {
     target.path = /usr/lib
